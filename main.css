@@ -15,6 +15,7 @@
   --gray-dark: rgb(128,128,128);
   --gray-lighten: rgb(204, 204, 204);
   --gray-light: rgb(243,243,244);
+  --yellow-light: rgb(248,176,126);
 }
 
 body {
@@ -184,6 +185,11 @@ img {
   border: 1px solid var(--gray-lighten);
 }
 
+.tab-contents .tab-contents {
+  border-left: none;
+  border-right: none;
+}
+
 .tab-contents > * {
   display: none;
 }
@@ -252,4 +258,7 @@ img {
 }
 .tags .tag-cyan {
   --tag-color: var(--cyan-light);
+}
+.tags .tag-yellow {
+  --tag-color: var(--yellow-light);
 }
